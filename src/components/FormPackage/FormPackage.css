@@ -1,0 +1,107 @@
+.formPackage {
+    height: 41rem;
+    margin: 10px 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .formContent{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 4%;
+    padding-top: 54px;
+} */
+.iconPackage {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background: url("../../assets/img/iconoPackage.svg") no-repeat;
+    background-size: contain;
+}
+
+.textColorYellow {
+    color: var(--color-yellow);
+}
+
+.formPackage h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.titulo {
+    flex: 1;
+}
+
+.formPackage input {
+    border-radius: 5px;
+    background-color: #e9eaeb;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.etiqueta {
+    padding: 10px;
+    width: 100%;
+    width: 250px;
+}
+
+.formPackageTitleTags {
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    border-radius: 5px;
+    background-color: #e9eaeb;
+    border: none;
+}
+
+.containerButton {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.buttonYellow {
+    margin-right: 0;
+    margin-bottom: 40px;
+    width: 8rem;
+    height: 2rem;
+    background-color: var(--color-yellow);
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.205);
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+
+.buttonYellow:hover {
+    background-color: var(--color-yellow--hover);
+}
+
+.description {
+    border-radius: 5px;
+    background-color: #e9eaeb;
+    border: none;
+    resize: none;
+    width: 100%;
+}
+
+.formPackageSoundPublicationValidity {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}

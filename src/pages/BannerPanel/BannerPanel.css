@@ -1,0 +1,11 @@
+.bannerpanel {
+  width: 100%;
+  padding: 2%;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.TituloBannerComponente{
+  font-size: 45px;
+  padding: 1%;
+}
